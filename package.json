@@ -1,0 +1,29 @@
+{
+  "name": "vite-plugin-vue-hook-enhance",
+  "version": "0.0.1",
+  "description": "vue-hook-enhance",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "release": "npm publish"
+  },
+  "exports": {
+    "import": "./exports/import.mjs",
+    "require": "./exports/require.cjs"
+  },
+  "author": "wqj",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wqja/bdjf_http_package.git"
+  },
+  "devDependencies": {
+    "vite": "^3"
+  },
+  "files": [
+    "/dist",
+    "/exports"
+  ]
+}
