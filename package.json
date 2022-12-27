@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/wqja/bdjf_http_package.git"
+    "url": "https://github.com/98kWarning/vite-plugin-hook-enhance"
   },
   "devDependencies": {
     "vite": "^3"
